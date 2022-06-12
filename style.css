@@ -60,3 +60,43 @@ ul{
 }
 
 /* everything above is for the navbar*/
+
+/* everything below is for the hero section*/
+
+h1{
+    font-size: 48px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+button {
+    height: 30px;
+    width: 85px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border-width: 0;
+    color: white;
+    margin: 10px 0;
+}
+
+section{
+    display: flex;
+    
+}
+
+.img{
+    height: 200px;
+    width: 400px;
+    background-color: #7e7e7e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* everything above is for the hero section*/
