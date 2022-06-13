@@ -9,6 +9,7 @@
 body{
     font-family: roboto, arial, sans-serif;
     font-size: 16px;
+    background-color: white;
 }
 
 .bodycont{
@@ -25,6 +26,7 @@ body{
 
 .logo {
     font-size: x-large;
+    padding: 0 30px;
 }
 
 a {
@@ -51,7 +53,6 @@ ul{
 .container{
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 30px;
 }
 
 /* this makes the links horizontal*/
@@ -116,3 +117,66 @@ section{
 }
 
 /* everything above is for the hero section*/
+
+
+/* everything below is for the info section*/
+
+.boxes{
+    height: 150px;
+    width: 150px;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+
+/* im suspicious that there is a shorter way to format the border*/
+
+.container .box{
+    max-width: 1100px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* i had to add another classification to flexbox the boxes*/
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    padding-top: 40px;
+}
+
+
+
+
+
+/* everything above is for the info section*/
+
+/* everything below is for the footer*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #e5e7eb;
+}
+
+.author{
+    
+}
+
+/* everything above is for the footer*/
+
+/* this is where i'll leave it.
+i don't know how to extend the background colors
+to go outside the borders.
+i also don't know how to get text below the boxes.
+i will revisit or rebuild this page in a few weeks.*/
